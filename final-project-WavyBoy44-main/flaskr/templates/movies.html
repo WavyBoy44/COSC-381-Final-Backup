@@ -1,0 +1,11 @@
+<title>Movie Collection</title>
+<h1>Movies</h1>
+<ul>
+{% for movie in movies %}
+    <li>
+        <b><a href="{{url_for('movies.videos', id=movie['id'])}}">{{ movie['title'] }}</a></b>: 
+        <a href="{{url_for('movies.translate', id=movie['id'])}}">translate</a>
+        {{ movie['overview'] }}
+    </li>
+{% endfor %}
+</ul>
