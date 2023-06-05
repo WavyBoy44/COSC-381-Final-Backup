@@ -7,7 +7,7 @@ from flaskr.db import get_movies, get_movie
 from ibm_watson import LanguageTranslatorV3
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator 
 
-DEVELOPER_KEY = 'AIzaSyB-_La6GWMOG_qwNgLgm5nIKROa3EJaUY0'
+DEVELOPER_KEY = 'YOUR_KEY_HERE'
 YOUTUBE_API_SERVICE_NAME = 'youtube'
 YOUTUBE_API_VERSION = 'v3'
 
